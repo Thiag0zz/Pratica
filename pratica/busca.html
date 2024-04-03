@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Empresas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Buscar Empresas</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./busca.html">Buscar</a></li>
+                <li><a href="./login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar por empresa...">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <ul id="searchResults" class="results-list"></ul>
+        <h2>Empresas Cadastradas</h2>
+        <ul id="registeredCompanies" class="results-list"></ul>
+    </main>
+    <footer>
+        <p>TigazTec</p>
+    </footer>
+    <script src="busca.js"></script>
+</body>
+</html>

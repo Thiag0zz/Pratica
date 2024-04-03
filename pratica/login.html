@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Novo Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Novo Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./busca.html">Buscar</a></li>
+                <li><a href="./login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form id="formContato" method="post">
+            <label for="nomeEmpresa">Nome da Empresa:</label>
+            <input type="text" id="nomeEmpresa" name="nomeEmpresa" required>
+        
+            <label for="numeroContato">Número de Contato:</label>
+            <input type="tel" id="numeroContato" name="numeroContato" required>
+        
+            
+            <label for="emailContato">E-mail de Contato:</label>
+            <input type="email" id="emailContato" name="emailContato" required>
+        
+            <label for="enderecoEmpresa">Endereço da Empresa:</label>
+            <input type="text" id="enderecoEmpresa" name="enderecoEmpresa" required>
+        
+            <label for="cidadeEmpresa">Cidade:</label>
+            <input type="text" id="cidadeEmpresa" name="cidadeEmpresa" required>
+        
+            <button type="submit">Salvar Contato</button>
+        </form>
+        
+    </main>
+    <footer>
+        <p>TigazTec</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
