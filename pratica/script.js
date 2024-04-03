@@ -26,7 +26,6 @@ document.getElementById('searchButton').addEventListener('click', function() {
     });
 });
 
-// Ao carregar a página, buscar e exibir as empresas cadastradas
 window.onload = function() {
     buscarEmpresasCadastradas();
 };
